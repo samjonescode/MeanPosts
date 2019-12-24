@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule, MatFormFieldModule, MatCardModule, MatAccordion, MatExpansionModule, MatInputModule, MatButtonModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,9 @@ import { HttpClientModule } from '@angular/common/http';
     MatExpansionModule,
     HttpClientModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    RouterModule,
+    AppRoutingModule
 
   ],
   providers: [],
